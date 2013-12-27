@@ -1,6 +1,6 @@
 module OpenProject::Themes
-  module Dark
-    require 'open_project/themes/dark/engine'
+  module Preview
+    require 'open_project/themes/preview/engine'
 
     def self.assets_path
       @assets_path ||= Engine.root.join('app/assets').to_s
