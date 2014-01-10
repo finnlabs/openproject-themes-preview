@@ -16,9 +16,13 @@ module OpenProject::Themes::Preview
         name 'OpenProject Preview Theme'
         author 'OpenProject Team'
         description 'Preview theme for OpenProject'
-        version OpenProject::Themes::Preview::VERSION
+
         url 'https://github.com/opf/openproject-themes-preview'
         author_url 'http://www.finn.de'
+
+        version OpenProject::Themes::Preview::VERSION
+
+        requires_openproject ">= 3.0.0pre42"
       end
     end
   end
