@@ -22,7 +22,7 @@ module OpenProject::Themes::Preview
 
         version OpenProject::Themes::Preview::VERSION
 
-        requires_openproject ">= 3.0.0pre42"
+        requires_openproject ">= 4.0.0"
       end
     end
   end
