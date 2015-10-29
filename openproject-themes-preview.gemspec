@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.name        = "openproject-themes-preview"
   s.version     = OpenProject::Themes::Preview::VERSION
   s.authors     = ["Philipp Tessenow"]
-  s.email       = ["info@finn.de"]
-  s.homepage    = "http://www.finn.de/"
+  s.email       = ["info@openproject.com"]
+  s.homepage    = "http://www.openproject.com/"
   s.summary     = "Preview Theme for OpenProject"
   s.description = "Preview Theme for OpenProject and a Generator to bootstrap new themes"
 
